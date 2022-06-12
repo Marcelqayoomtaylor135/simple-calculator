@@ -1,0 +1,60 @@
+#calculator{
+    background-image: url(../calculator.jpg);
+    width: 492px;
+    height: 615px;
+}
+
+#output{
+    width: 332px;
+    height: 80px;
+    position: relative;
+    left: 78px;
+    top: 132px;
+}
+
+#mainButtons{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 95px;
+    top: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#mainButtons button{
+    width: 10px;
+    height: 10px;
+    padding: 30px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+}
+
+#mainButtons button:hover{
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+#firstRow{
+    position: relative;
+    top: 2px;
+}
+
+#lastRow{
+    position: relative;
+    bottom: 6px;
+}
+
+
+/*
+NOTES:
+
+ - The positioning is hard coded, see if absolute would work
+*/
+
